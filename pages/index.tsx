@@ -17,7 +17,7 @@ export default function Home() {
       <main>
         <h1>Bridger Tower</h1>
 
-        <h2>Lorem Ipsum Dolor</h2>
+        <h2>Frontend Developer and Designer from <a href="https://utah.gov">Salt Lake City, UT</a></h2>
 
         <h3>Frontend Developer and Designer</h3>
 
