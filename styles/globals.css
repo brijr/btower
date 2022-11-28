@@ -12,7 +12,16 @@ a {
   color: orange;
   text-decoration: none;
   font-size: 1rem;
-  border-bottom: 1px solid #222222;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+  transition: all;
+  transition-duration: 400ms;
+  border-bottom: 1px solid #fefefe;
+}
+
+a:hover {
+  padding-top: 2px;
 }
 
 p {
@@ -40,13 +49,10 @@ h5 {
   html {
     color-scheme: dark;
   }
+
   body {
     color: #fefefe;
     background: #222;
   }
-  a {
-    color: #fefefe;
-    border-bottom: 1px solid #fefefe;
-  }
-  
+
 }
