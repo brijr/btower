@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="p-4 bg-gray-800">
+    <div className="p-4">
       <Head>
         <title>Bridger Tower | B98</title>
         <meta

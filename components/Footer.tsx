@@ -1,12 +1,18 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer>
-      Powered by{" "}
-      <span>
-        <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-      </span>
+    <footer className="flex gap-4">
+      <Link href="/">
+        <p>Home</p>
+      </Link>
+      <Link href="/">
+        <p>Work</p>
+      </Link>
+      <Link href="/">
+        <p>Contact</p>
+      </Link>
+      <a href="https://github.com/brijr">GitHub</a>
     </footer>
   );
 }
