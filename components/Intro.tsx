@@ -44,15 +44,15 @@ export default function Intro() {
           >
             Salt Lake City
           </a>
-          .
+          . Passionate about aesthetics, usability, code, and branding.
         </h2>
       </div>
-      <h3>
+      <h3 className="text-lg">
         I live for <span>design</span>, <span>code</span>, and{" "}
         <span>marketing</span>.
       </h3>
-      <p>
-        As one passionate about design, development and marketing and I seek to
+      <p className="mb-4">
+        As one involved about design, development and marketing and I seek to
         bridge the gaps between them.
       </p>
       <p>
@@ -60,7 +60,7 @@ export default function Intro() {
         marketing leads to powerful products, impactful websites, and further
         innovation.
       </p>
-      <div className="max-w-[750px] my-8">
+      <div className="max-w-[750px] my-8 bg-white">
         <Image
           src={venn}
           alt="Venn diagram of Bridger Tower's Favorite Place"

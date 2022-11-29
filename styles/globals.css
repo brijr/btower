@@ -59,13 +59,24 @@ footer {
   background-color: rgb(240, 240, 240);
 }
 
+.workItem {
+  border-left: 2px solid #ddd;
+  padding-left: .5rem;
+  margin: 0 0 1rem 0;
+  padding: .5rem 0 .5rem 1rem;
+}
+
+strong {
+  font-weight: 400;
+}
+
 @media (max-width: 1280px) {
   footer {
     background-color: #fefefe;
   }
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -97,4 +108,4 @@ footer {
     }
   }
 
-}
+} */
