@@ -1,3 +1,4 @@
+import Back from "../../components/Back";
 import Current from "../../components/Current";
 import Previous from "../../components/Previous";
 import Projects from "../../components/Projects";
@@ -5,6 +6,7 @@ import Projects from "../../components/Projects";
 export default function Work() {
   return (
     <div>
+      <Back />
       <div className="my-16">
         <h2 className="text-2xl">Work and Projects</h2>
         <h3 className="text-xl">

@@ -1,6 +1,9 @@
 import Image from "next/image";
 import venn from "../public/venn.png";
 import btIcon from "../public/icon.jpeg";
+import Link from "next/link";
+import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
+
 
 export default function Intro() {
   return (
@@ -46,19 +49,45 @@ export default function Intro() {
           </a>
           . Passionate about aesthetics, usability, code, and branding.
         </h2>
+
+        <div className="flex flex-wrap gap-4">
+          <Link className="flex my-2 p-0 items-center" href="/work">
+            <p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">Work</p>
+            <div className="w-4 h-4">
+              <ArrowUpRightIcon />
+            </div>
+          </Link>
+
+          <Link className="flex my-2 p-0 items-center" href="/writings">
+            <p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">
+              Writings
+            </p>
+            <div className="w-4 h-4">
+              <ArrowUpRightIcon />
+            </div>
+          </Link>
+
+          <Link className="flex my-2 p-0 items-center" href="#about">
+            <p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">About Me</p>
+            <div className="w-4 h-4">
+              <ArrowUpRightIcon />
+            </div>
+          </Link>
+        </div>
       </div>
+
       <h3 className="text-lg">
-        I live for <span>design</span>, <span>code</span>, <span>technology</span>, and{" "}
-        <span>marketing</span>.
+        I live for <span>design</span>, <span>code</span>,{" "}
+        <span>technology</span>, and <span>marketing</span>.
       </h3>
       <p className="mb-4">
-        As one studied and involved heavily in design, development, and marketing and I seek to
-        bridge the gaps between them.
+        As one studied and involved heavily in design, development, and
+        marketing and I seek to bridge the gaps between them.
       </p>
       <p>
-        I believe the combination and collaboration of design, code, technology, and
-        marketing leads to powerful products, impactful websites, and further
-        innovation.
+        I believe the combination and collaboration of design, code, technology,
+        and marketing leads to powerful products, impactful websites, and
+        further innovation.
       </p>
       <div className="my-12 invert dark:invert-0 xl:border xl:p-12 p-4">
         <Image
