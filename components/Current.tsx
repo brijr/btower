@@ -19,7 +19,10 @@ export default function Current() {
           fixes and more. I work mostly with HTML, CSS, JavaScript, Next JS,
           Wordpress, and PHP.
         </small>
-        <Link className="flex mt-4 p-0 items-center" href="https://tackle.io">
+        <Link
+          className="flex flex-wrap mt-4 p-0 items-center"
+          href="https://tackle.io"
+        >
           <p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">
             Learn more about Tackle
           </p>
