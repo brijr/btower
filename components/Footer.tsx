@@ -10,21 +10,35 @@ export default function Footer() {
         <a href="https://brijr.dev">Bridger Tower</a> circa 2023.
       </p>
       <div className="mt-8">
+        {/* work */}
+        <Link className="flex my-2 p-0 items-center" href="/work">
+          <p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">
+            Work and Projects
+          </p>
+          <div className="w-4 h-4">
+            <ArrowUpRightIcon />
+          </div>
+        </Link>
+
+        {/* writings */}
         <Link className="flex my-2 p-0 items-center" href="/">
           <p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">Writings</p>
           <div className="w-4 h-4">
             <ArrowUpRightIcon />
           </div>
         </Link>
+
+        {/* LinkedIn */}
         <Link
           className="flex my-2 p-0 items-center"
           href="https://linkedin.com/in/brdgr"
         >
-          <p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">Linkedin</p>
+          <p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">LinkedIn</p>
           <div className="w-4 h-4">
             <ArrowUpRightIcon />
           </div>
         </Link>
+
         {/* github */}
         <Link
           className="flex my-2 p-0 items-center"
@@ -35,6 +49,7 @@ export default function Footer() {
             <ArrowUpRightIcon />
           </div>
         </Link>
+
         {/* twitter */}
         <Link
           className="flex my-2 p-0 items-center"
@@ -45,6 +60,7 @@ export default function Footer() {
             <ArrowUpRightIcon />
           </div>
         </Link>
+
         {/* YouTube */}
         <Link
           className="flex my-2 p-0 items-center"
@@ -55,6 +71,7 @@ export default function Footer() {
             <ArrowUpRightIcon />
           </div>
         </Link>
+
         {/* insta */}
         <Link
           className="flex my-2 p-0 items-center"

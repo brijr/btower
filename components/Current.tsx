@@ -12,7 +12,7 @@ export default function Current() {
           <a href="https://tackle.io">Tackle.io</a>.
         </p>
         <p className="mb-4 mt-2 italic">August 2018 to Present</p>
-        <small>
+        <small className="dark:text-white">
           As the lead Web Developer and Designer at Tackle, I work on the
           Marketing Team to manage, maintain, and improve the marketing site. My
           responsibilities vary at Tackle from DevOps, to Design Systems, to bug
@@ -35,7 +35,7 @@ export default function Current() {
           <a href="https://ziondesign.io">Zion Design</a>.
         </p>
         <p className="mb-4 mt-2 italic">August 2018 to Present</p>
-        <small>
+        <small className="dark:text-white">
           Since 2018 I have been operating a small design and development studio
           called Zion Design. Since I have worked with hundreds of brands and
           products to create visual identities and websites.
