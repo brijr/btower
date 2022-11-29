@@ -3,9 +3,7 @@ import Head from "next/head";
 
 // Component Imports 
 import Intro from "../components/Intro";
-
-// Image Imports
-import venn from "../public/venn.png";
+import Work from "../components/Work"
 
 export default function Home() {
   return (
@@ -21,6 +19,7 @@ export default function Home() {
 
       <main>
         <Intro />
+        <Work />
       </main>
     </div>
   );
