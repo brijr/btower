@@ -48,19 +48,19 @@ export default function Intro() {
         </h2>
       </div>
       <h3 className="text-lg">
-        I live for <span>design</span>, <span>code</span>, and{" "}
+        I live for <span>design</span>, <span>code</span>, <span>technology</span>, and{" "}
         <span>marketing</span>.
       </h3>
       <p className="mb-4">
-        As one involved about design, development and marketing and I seek to
+        As one studied and involved heavily in design, development, and marketing and I seek to
         bridge the gaps between them.
       </p>
       <p>
-        I believe the combination and collaboration of design, code, and
+        I believe the combination and collaboration of design, code, technology, and
         marketing leads to powerful products, impactful websites, and further
         innovation.
       </p>
-      <div className="my-12 invert dark:invert-0 border xl:p-12 p-4">
+      <div className="my-12 invert dark:invert-0 xl:border xl:p-12 p-4">
         <Image
           src={venn}
           alt="Venn diagram of Bridger Tower's Favorite Place"

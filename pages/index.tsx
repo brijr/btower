@@ -3,7 +3,6 @@ import Head from "next/head";
 
 // Component Imports 
 import Intro from "../components/Intro";
-import Work from "../components/Work"
 
 export default function Home() {
   return (
@@ -19,7 +18,8 @@ export default function Home() {
 
       <main>
         <Intro />
-        <Work />
+
+        
       </main>
     </div>
   );
