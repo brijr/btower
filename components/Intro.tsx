@@ -60,7 +60,7 @@ export default function Intro() {
         marketing leads to powerful products, impactful websites, and further
         innovation.
       </p>
-      <div className="max-w-[750px] my-8 bg-white">
+      <div className="my-12 invert dark:invert-0 border p-12">
         <Image
           src={venn}
           alt="Venn diagram of Bridger Tower's Favorite Place"
