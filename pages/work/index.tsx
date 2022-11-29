@@ -1,6 +1,6 @@
-import Current from "./Current";
-import Previous from "./Previous";
-import Projects from "./Projects";
+import Current from "../../components/Current";
+import Previous from "../../components/Previous";
+import Projects from "../../components/Projects";
 
 export default function Work() {
   return (
@@ -15,7 +15,7 @@ export default function Work() {
       <Current />
       <Previous />
       <Projects />
-      
+
     </div>
   );
 }
