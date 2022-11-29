@@ -1,10 +1,19 @@
 import Image from "next/image";
-import venn from "../public/venn.png"
+import venn from "../public/venn.png";
+import btIcon from "../public/icon.jpeg";
 
 export default function Intro() {
   return (
     <div>
       <div className="mt-12 mb-24">
+        <div className="w-24 ring-2 outline outline-offset-2 outline-1 my-12 outline-[#bbb] rounded-full">
+          <Image
+            className="rounded-full"
+            src={btIcon}
+            alt="Icon of Bridger Tower on a Laptop probably coding or designing"
+          ></Image>
+        </div>
+
         <h1 className="text-4xl">
           Bridger Tower
           <small className="block">
@@ -33,13 +42,10 @@ export default function Intro() {
       </p>
       <div className="max-w-[750px] my-8">
         <Image
-          className=" invert-0"
           src={venn}
           alt="Venn diagram of Bridger Tower's Favorite Place"
         />
       </div>
-      <h4>This is a heading four</h4>
-      <h5>This is a heading five</h5>
     </div>
   );
 }

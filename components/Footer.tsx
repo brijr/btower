@@ -3,10 +3,10 @@ import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 
 export default function Footer() {
   return (
-    <footer className="mt-24">
-      <div className="my-12 bg-[#222] dark:bg-[#fefefe] h-[0.5px] w-1/4"></div>
+    <footer className="my-12 xl:fixed bottom-0 right-0 xl:m-0 xl:p-6 xl:h-full xl:w-1/6">
+      <div className="xl:hidden my-12 dark:bg-[#fefefe] h-[0.5px] w-1/4"></div>
       <p>
-        Thanks for Visiting. Created by <a href="https://brijr.dev">Bridger</a>.
+        Thanks for Visiting. Website created by <a href="https://brijr.dev">Bridger Tower</a> circa 2023.
       </p>
       <div className="mt-8">
         <Link className="flex my-2 p-0 items-center" href="/">
@@ -24,6 +24,7 @@ export default function Footer() {
             <ArrowUpRightIcon />
           </div>
         </Link>
+        {/* github */}
         <Link
           className="flex my-2 p-0 items-center"
           href="https://github.com/brijr"
@@ -49,6 +50,18 @@ export default function Footer() {
           href="https://youtube.com/@code-craft"
         >
           <p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">YouTube</p>
+          <div className="w-4 h-4">
+            <ArrowUpRightIcon />
+          </div>
+        </Link>
+        {/* insta */}
+        <Link
+          className="flex my-2 p-0 items-center"
+          href="https://instagram.com/_brijr"
+        >
+          <p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">
+            Instagram
+          </p>
           <div className="w-4 h-4">
             <ArrowUpRightIcon />
           </div>

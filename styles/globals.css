@@ -7,7 +7,7 @@ body {
   padding: 0;
   margin: 0;
   font-weight: 200;
-  max-width: 1080px;
+  max-width: 1000px;
 }
 
 a {
@@ -55,6 +55,16 @@ small {
   box-sizing: border-box;
 }
 
+footer {
+  background-color: rgb(240, 240, 240);
+}
+
+@media (max-width: 1280px) {
+  footer {
+    background-color: #fefefe;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -70,11 +80,21 @@ small {
   }
 
   a:hover {
-      color: orange;
+    color: orange;
   }
 
   span {
     background-color: #444;
+  }
+
+  footer {
+    background-color: #333;
+  }
+
+  @media (max-width: 1280px) {
+    footer {
+      background-color: #222;
+    }
   }
 
 }
