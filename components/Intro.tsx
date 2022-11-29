@@ -39,7 +39,8 @@ export default function Intro() {
           </small>
         </h1>
         <h2 className="text-xl">
-          Frontend Designer, Product Marketer, and Web Developer located in{" "}
+          Frontend Developer, Multi-Disciplinary Designer, and Product Marketer
+          located in{" "}
           <a
             href="https://goo.gl/maps/u25hR137vAGcUXtP9"
             target="_blank"
@@ -68,7 +69,9 @@ export default function Intro() {
           </Link>
 
           <Link className="flex my-2 p-0 items-center" href="#about">
-            <p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">About Me</p>
+            <p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">
+              About Me
+            </p>
             <div className="w-4 h-4">
               <ArrowUpRightIcon />
             </div>
