@@ -63,7 +63,7 @@ export default function Footer() {
 				</Link>
 			</div>
 
-			<p className="mt-6 mb-2">
+			<p className="mt-6 xl:mb-2">
 				Thanks for Visiting. Website created by <a href="https://brijr.dev">Bridger Tower</a> circa
 				2023.
 			</p>
