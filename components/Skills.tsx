@@ -8,7 +8,7 @@ export default function Skills() {
 
 				<h4 className="text-2xl">Design</h4>
 
-				<ul className="mb-12 bg-gray-100 p-4 xl:p-8 rounded-xl">
+				<ul className="mb-12 p-4 xl:p-8 rounded-xl">
 					<li>Branding</li>
 					<li>User Experience Design (UX Design)</li>
 					<li>Aesthetics</li>
@@ -20,7 +20,7 @@ export default function Skills() {
 
 				<h4 className="text-2xl">Marketing</h4>
 
-				<ul className="mb-12 bg-gray-100 p-4 xl:p-8 rounded-xl">
+				<ul className="mb-12 p-4 xl:p-8 rounded-xl">
 					<li>Search Engine Optimization (SEO)</li>
 					<li>Conversion Rate Optimization (CRO)</li>
 					<li>Landing Pages and Sales Funnels</li>
@@ -33,7 +33,7 @@ export default function Skills() {
 				<h4 className="text-2xl">Development and Coding</h4>
 
 				<div className="flex xl:gap-6 gap-4 flex-col xl:flex-row">
-					<div className="bg-gray-100 p-4 xl:p-8 rounded-xl xl:w-1/2">
+					<div className="ul p-4 xl:p-8 rounded-xl xl:w-1/2">
 						<h5 className="bold">Technologies in Use ✅</h5>
 						<ul>
 							<li>
@@ -64,7 +64,7 @@ export default function Skills() {
 							</li>
 						</ul>
 					</div>
-					<div className="bg-gray-100 p-4 xl:p-8 rounded-xl xl:w-1/2">
+					<div className="ul p-4 xl:p-8 rounded-xl xl:w-1/2">
 						<h5 className="bold">Dev Learning Roadmap 🚗</h5>
 						<ul>
 							<li>React Native and Swift</li>

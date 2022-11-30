@@ -74,6 +74,10 @@ strong {
   font-weight: 400;
 }
 
+ul, .ul {
+  background-color: rgb(243 244 246);
+}
+
 li {
   font-weight: 200;
   font-size: 1rem;
@@ -110,6 +114,10 @@ li {
     color: orange;
   }
 
+  ul, .ul {
+    background-color: rgb(40, 40, 40);
+  }
+
   span {
     background-color: #444;
   }
@@ -123,7 +131,7 @@ li {
   }
 
   .workItem {
-      border-left: 2px solid #444;
+    border-left: 2px solid #444;
   }
 
   @media (max-width: 1280px) {
