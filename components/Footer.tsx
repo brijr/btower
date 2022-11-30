@@ -3,10 +3,9 @@ import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 
 export default function Footer() {
   return (
-		<footer className="my-12 xl:fixed bottom-0 right-0 xl:m-0 xl:p-6 xl:h-full xl:w-1/6">
+    <footer className="my-12 xl:fixed xl:flex flex-col justify-between bottom-0 right-0 xl:m-0 xl:p-6 xl:h-full xl:w-1/6">
 			<div className="xl:hidden my-12 bg-[#222] dark:bg-[#fefefe] h-[0.5px] w-1/4"></div>
-
-			<div className="mt-8">
+			<div>
 				{/* work */}
 				<Link className="flex my-2 p-0 items-center" href="/work">
 					<p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">Work</p>
@@ -62,12 +61,12 @@ export default function Footer() {
 						<ArrowUpRightIcon />
 					</div>
 				</Link>
-
-				<p className="mt-6">
-					Thanks for Visiting. Website created by <a href="https://brijr.dev">Bridger Tower</a>{' '}
-					circa 2023.
-				</p>
 			</div>
+
+			<p className="mt-6 mb-2">
+				Thanks for Visiting. Website created by <a href="https://brijr.dev">Bridger Tower</a> circa
+				2023.
+			</p>
 		</footer>
 	);
 }
