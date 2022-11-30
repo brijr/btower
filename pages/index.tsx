@@ -4,7 +4,6 @@ import Head from 'next/head';
 // Component Imports
 import Intro from '../components/Intro';
 import About from '../components/Skills';
-import ThemeSwitch from '../components/ThemeSwitcher';
 
 export default function Home() {
 	return (
@@ -21,7 +20,6 @@ export default function Home() {
 			<main>
 				<Intro />
 				<About />
-				<ThemeSwitch />
 			</main>
 		</div>
 	);
