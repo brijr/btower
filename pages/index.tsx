@@ -3,7 +3,7 @@ import Head from "next/head";
 
 // Component Imports 
 import Intro from "../components/Intro";
-import About from "../components/About"
+import About from "../components/Skills"
 
 export default function Home() {
   return (

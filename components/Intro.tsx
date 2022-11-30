@@ -68,7 +68,7 @@ export default function Intro() {
             </div>
           </Link>
 
-          <Link className="flex my-2 p-0 items-center" href="#about">
+          <Link className="flex my-2 p-0 items-center" href="/about">
             <p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">
               About Me
             </p>
@@ -92,7 +92,7 @@ export default function Intro() {
         and marketing leads to powerful products, impactful websites, and
         further innovation.
       </p>
-      <div className="my-12 invert dark:invert-0 xl:border xl:p-12 p-4">
+      <div className="my-12 invert dark:invert-0 xl:w-3/4">
         <Image
           src={venn}
           alt="Venn diagram of Bridger Tower's Favorite Place"
