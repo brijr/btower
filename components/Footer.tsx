@@ -1,16 +1,11 @@
 import Link from "next/link";
 import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
-// import ThemeSwitch from "./ThemeSwitcher";
 
 export default function Footer() {
   return (
 		<footer className="my-12 xl:fixed bottom-0 right-0 xl:m-0 xl:p-6 xl:h-full xl:w-1/6">
 			<div className="xl:hidden my-12 bg-[#222] dark:bg-[#fefefe] h-[0.5px] w-1/4"></div>
-			{/* <ThemeSwitch /> */}
-			<p>
-				Thanks for Visiting. Website created by <a href="https://brijr.dev">Bridger Tower</a> circa
-				2023.
-			</p>
+
 			<div className="mt-8">
 				{/* work */}
 				<Link className="flex my-2 p-0 items-center" href="/work">
@@ -67,6 +62,11 @@ export default function Footer() {
 						<ArrowUpRightIcon />
 					</div>
 				</Link>
+
+				<p className="mt-6">
+					Thanks for Visiting. Website created by <a href="https://brijr.dev">Bridger Tower</a>{' '}
+					circa 2023.
+				</p>
 			</div>
 		</footer>
 	);
