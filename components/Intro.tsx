@@ -9,7 +9,7 @@ export default function Intro() {
   return (
 		<div>
 			<div className="mt-12 mb-24 xl:mb-64">
-				<div className="w-24 ring-2 outline my-12 rounded-full hover:drop-shadow-xl transition-shadow duration-500">
+				<div className="w-24 ring-2 my-12 rounded-full hover:animate-spin hover:drop-shadow-xl transition-all duration-500">
 					<Image
 						className="rounded-full border-none"
 						src={btIcon}
