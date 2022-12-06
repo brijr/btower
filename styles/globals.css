@@ -8,9 +8,9 @@ body {
   margin: 0;
   font-weight: 200;
   max-width: 1000px;
-  animation: fadeInAnimation ease 3s;
+  animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  animation-fill-mode: both;
 }
 
 @keyframes fadeInAnimation {
