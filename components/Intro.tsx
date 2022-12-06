@@ -1,17 +1,16 @@
-import Image from "next/image";
-import venn from "../public/venn.png";
-import btIcon from "../public/icon.jpeg";
-import Link from "next/link";
-import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
-
+import Image from 'next/image';
+import venn from '../public/venn.png';
+import btIcon from '../public/icon.jpeg';
+import Link from 'next/link';
+import { ArrowUpRightIcon } from '@heroicons/react/24/solid';
 
 export default function Intro() {
-  return (
+	return (
 		<div>
-			<div className="mt-12 mb-24 xl:mb-64">
+			<div className="mt-24 mb-24 xl:mb-64">
 				<div className="w-24 ring-2 ring-gray-700 dark:ring-gray-100 my-12 hover:ml-4 rounded-full hover:drop-shadow-xl transition-all duration-500">
 					<Image
-						className="rounded-full border-none"
+						className="rounded-full border-none mt-12 "
 						src={btIcon}
 						alt="Icon of Bridger Tower on a Laptop probably coding or designing"
 					></Image>
@@ -20,7 +19,7 @@ export default function Intro() {
 				<h1 className="text-4xl">
 					Bridger Tower
 					<small className="block">
-						aka.{' '}
+						aka. <a href="https://btower.dev">btower (here)</a>,{' '}
 						<a href="https://b98.io" target="_blank" rel="noreferrer">
 							B98
 						</a>

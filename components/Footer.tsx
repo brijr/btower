@@ -3,7 +3,7 @@ import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 
 export default function Footer() {
   return (
-    <footer className="my-12 xl:fixed xl:flex flex-col justify-between bottom-0 right-0 xl:m-0 xl:p-6 xl:h-full xl:w-1/6">
+    <footer className="my-12 z-40 xl:fixed xl:flex flex-col justify-between bottom-0 right-0 xl:m-0 xl:p-6 xl:h-full xl:w-1/6">
 			<div className="xl:hidden my-12 bg-[#222] dark:bg-[#fefefe] h-[0.5px] w-1/4"></div>
 			<div>
 				{/* work */}
