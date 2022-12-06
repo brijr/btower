@@ -9,12 +9,12 @@ export default function Home() {
 	return (
 		<div>
 			<Head>
-				<title>Bridger Tower | B98</title>
+				<title>Bridger Tower | Design and Code</title>
 				<meta
 					name="description"
 					content="Bridger Tower | Front End Developer and Designer from Salt Lake City, Utah"
 				/>
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/icon.jpeg" />
 			</Head>
 
 			<main>
