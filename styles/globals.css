@@ -13,6 +13,7 @@ body {
   animation-fill-mode: both;
 }
 
+/* For Safari Mobile to Work */
 .bg-image:after {
   content: "";
   position: fixed;
@@ -125,6 +126,7 @@ li {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  max-height: 100vh;
 }
 
 @media (max-width: 1280px) {
