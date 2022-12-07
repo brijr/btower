@@ -15,7 +15,7 @@ export default function Home() {
 					name="description"
 					content="Bridger Tower | Front End Developer and Designer from Salt Lake City, Utah"
 				/>
-				<link rel="icon" href="/icon.png" />
+				<link rel="icon" href="/icon.jpeg" />
 			</Head>
 
 			<main>
