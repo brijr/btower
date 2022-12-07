@@ -19,7 +19,7 @@ export default function Cover() {
 					/>
 				</svg>
 			</div>
-			<div className="absolute lg:inline bottom-6 lg:left-1/4 left-1/2 w-4 -ml-2 animate-pulse">
+			<div className="absolute lg:hidden bottom-6 lg:left-1/4 left-1/2 w-4 -ml-2 animate-pulse">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
