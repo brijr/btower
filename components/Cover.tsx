@@ -1,7 +1,7 @@
 export default function Cover() {
 	return (
 		<div className="bg-image w-screen overflow-hidden h-screen block z-50 lg:-mx-24 -m-6 bg-['https://btower.dev/btowerdev.jpg']">
-			<div className="absolute lg:left-1/3 left-1/2 -ml-40 top-1/3 lg:top-1/2 lg:block flex flex-col items-center -mt-20 text-center lg:text-left w-80 h-40">
+			<div className="absolute text-white lg:left-1/3 left-1/2 -ml-40 top-1/3 lg:top-1/2 lg:block flex flex-col items-center -mt-20 text-center lg:text-left w-80 h-40">
 				<p className="text-5xl mb-6">Bridger Tower</p>
 				<p className="mb-6">Designer and Developer</p>
 				<svg
