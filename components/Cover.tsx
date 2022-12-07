@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function Cover() {
 	return (
 		<div className="bg-image w-screen overflow-hidden h-screen block z-50 lg:-mx-24 -m-6 bg-['https://btower.dev/btowerdev.jpg']">
