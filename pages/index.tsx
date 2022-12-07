@@ -6,9 +6,6 @@ import Intro from '../components/Intro';
 import About from '../components/Skills';
 import Cover from '../components/Cover';
 
-// Image Imports
-import btower from '../public/btower.svg';
-
 export default function Home() {
 	return (
 		<>
@@ -18,7 +15,7 @@ export default function Home() {
 					name="description"
 					content="Bridger Tower | Front End Developer and Designer from Salt Lake City, Utah"
 				/>
-				<link rel="icon" href="/icon.jpeg" />
+				<link rel="icon" href="/icon.png" />
 			</Head>
 
 			<main>
