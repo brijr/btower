@@ -64,7 +64,7 @@ export default function Footer() {
 			</div>
 
 			<p className="mt-6 xl:mb-2">
-				Thanks for Visiting. Website created by <a href="https://brijr.dev">Bridger Tower</a> circa
+				Website created by <a href="https://brijr.dev">Bridger Tower</a> circa
 				2023.
 			</p>
 		</footer>

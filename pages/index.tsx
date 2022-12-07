@@ -1,6 +1,5 @@
 // Next Imports
 import Head from 'next/head';
-import Image from 'next/image';
 
 // Component Imports
 import Intro from '../components/Intro';
