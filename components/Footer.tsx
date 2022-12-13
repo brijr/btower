@@ -55,7 +55,7 @@ export default function Footer() {
 				</Link>
 
 				{/* insta */}
-				<Link className="flex my-2 p-0 items-center" href="https://instagram.com/_brijr">
+				<Link className="flex my-2 p-0 items-center" href="https://instagram.com/bt0wer">
 					<p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">Instagram</p>
 					<div className="w-4 h-4">
 						<ArrowUpRightIcon />
