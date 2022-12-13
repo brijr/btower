@@ -1,18 +1,17 @@
 import Image from 'next/image';
 import venn from '../public/venn.png';
-import btIcon from '../public/icon.jpeg';
+import cap from "../public/cap.svg"
 import Link from 'next/link';
 import { ArrowUpRightIcon } from '@heroicons/react/24/solid';
 
 export default function Intro() {
 	return (
 		<div>
-			<div className="mt-24 mb-24 xl:mb-64">
-				<div className="w-24 ring-2 ring-gray-700 dark:ring-gray-100 my-12 hover:ml-4 rounded-full hover:drop-shadow-xl transition-all duration-500">
+			<div className="mt-36 mb-24 xl:mb-64">
+				<div className="w-24 my-12 hover:ml-4 invert dark:invert-0 hover:drop-shadow-xl transition-all duration-500">
 					<Image
-						className="rounded-full border-none mt-12 "
-						src={btIcon}
-						alt="Icon of Bridger Tower on a Laptop probably coding or designing"
+						src={cap}
+						alt="An illustrated keycap with a B on it for Bridger Tower"
 					></Image>
 				</div>
 

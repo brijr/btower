@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* General */
+
 html,
 body {
   padding: 0;
@@ -11,16 +13,7 @@ body {
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: both;
-}
-
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
+  font-family: 'Inter', sans-serif;
 }
 
 a {
@@ -43,9 +36,10 @@ span {
 }
 
 p {
-  font-weight: 200;
+  font-weight: 100;
   font-size: 1rem;
   line-height: 1.2;
+  font-family: 'Inter', sans-serif;
 }
 
 h1,
@@ -111,11 +105,15 @@ li {
   max-height: 100vh;
 }
 
+/* For large screens */
+
 @media (max-width: 1280px) {
   footer {
     background-color: #fefefe;
   }
 }
+
+/* For dark mode */
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -162,4 +160,16 @@ li {
     }
   }
 
+}
+
+/* Key Frames */
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
