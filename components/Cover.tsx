@@ -1,11 +1,7 @@
-import Image from "next/image";
-import Cap from "../public/cap.svg"
-
 export default function Cover() {
 	return (
     <div className="bg-image w-screen overflow-hidden h-screen block z-50 lg:-mx-24 -m-6 bg-['https://btower.dev/btowerdev.jpg']">
       <div className="font-extralight absolute text-white lg:left-1/3 left-1/2 -ml-40 top-1/3 lg:top-1/2 lg:block flex flex-col items-center -mt-20 text-center lg:text-left w-80 h-40">
-        <Image src={Cap} alt="an illustrated key cap with a b on it" className="w-12 mb-6"></Image>
 				<p className="text-5xl mb-6 font-extralight">Bridger Tower</p>
         <p className="mb-6 font-extralight">Designer and Developer</p>
         <svg
