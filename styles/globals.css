@@ -109,16 +109,9 @@ li {
 
 }
 
-.bg-image {
-  background-image: url('../public/btowerdev.jpg');
+.cover-bg {
+  background-image: url('https: //media0.giphy.com/media/3ohryyKQhdsiUttMk0/giphy.gif?cid=ecf05e4750fqauecxcsy11s7w4rsh42g5kpyptoq94g6rt6j&rid=giphy.gif&ct=g');
   background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: bottom;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  max-height: 100vh;
 }
 
 /* For large screens */

@@ -1,14 +1,14 @@
 import Image from "next/image";
 import venn from "../public/venn.png";
-import cap from "../public/cap.svg";
+import cap from "../public/static/favicon.png";
 import Link from "next/link";
 import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 
 export default function Intro() {
   return (
     <div>
-      <div className="mt-36 mb-24 xl:mb-64">
-        <div className="w-24 my-12 hover:ml-4 invert dark:invert-0 hover:drop-shadow-xl transition-all duration-500">
+      <div className="my-24">
+        <div className="w-24 my-12 hover:ml-4 hover:drop-shadow-xl transition-all duration-500">
           <Image
             src={cap}
             alt="An illustrated keycap with a B on it for Bridger Tower"
@@ -16,11 +16,11 @@ export default function Intro() {
         </div>
 
         <h1 className="text-4xl">
-          Bridger Tower
-          <small className="block">
+          Bridger Tower{" "}
+          <small>
             aka. <a href="https://btower.dev">btower (here)</a>,{" "}
             <a href="https://github.com/brijr" target="_blank" rel="noreferrer">
-              brijr
+              brijr (GitHub)
             </a>
             , <a href="https://ziondesign.io">Zion Design</a>, and{" "}
             <a
@@ -63,10 +63,11 @@ export default function Intro() {
             </div>
           </Link>
 
-          <Link className="flex my-2 p-0 items-center" href="https://youtube.com/@code-craft">
-            <p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">
-              Videos
-            </p>
+          <Link
+            className="flex my-2 p-0 items-center"
+            href="https://youtube.com/@code-craft"
+          >
+            <p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">Videos</p>
             <div className="w-4 h-4">
               <ArrowUpRightIcon />
             </div>
@@ -96,7 +97,7 @@ export default function Intro() {
         and marketing leads to powerful products, impactful websites, and
         further innovation.
       </p>
-      <div className="my-12 invert dark:invert-0 xl:w-3/4">
+      <div className="my-12 invert lg:w-3/4">
         <Image
           src={venn}
           alt="Venn diagram of Bridger Tower's Favorite Place"
