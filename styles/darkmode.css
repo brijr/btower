@@ -1,0 +1,47 @@
+/* CSS for Dark Mode */
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: #fefefe;
+    background: #222;
+  }
+
+  a {
+    color: #bbb;
+  }
+
+  a:hover {
+    color: orange;
+  }
+
+  ul,
+  .ul {
+    background-color: rgb(40, 40, 40);
+  }
+
+  span {
+    background-color: #444;
+  }
+
+  footer {
+    background-color: #333;
+  }
+
+  small {
+    color: #bbb;
+  }
+
+  .workItem {
+    border-left: 2px solid #444;
+  }
+
+  @media (max-width: 1280px) {
+    footer {
+      background-color: #222;
+    }
+  }
+}

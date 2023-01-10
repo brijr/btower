@@ -4,7 +4,7 @@ import About from "../components/Skills";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Intro />
       <About />
       <div className="hidden lg:block h-px dark:bg-white w-1/2 my-12 bg-slate-800"></div>
@@ -28,6 +28,6 @@ export default function Home() {
           visiting
         </p>
       </div>
-    </main>
+    </>
   );
 }

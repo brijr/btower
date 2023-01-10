@@ -6,10 +6,11 @@ import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 
 export default function Intro() {
   return (
-    <div>
+    <div className="slide-in-bottom">
       <div className="my-24">
         <div className="w-24 my-12 hover:ml-4 hover:drop-shadow-xl transition-all duration-500">
           <Image
+            className="pulsate-bck"
             src={cap}
             alt="An illustrated keycap with a B on it for Bridger Tower"
           ></Image>

@@ -1,5 +1,6 @@
-// CSS import
+// CSS and Animation imports
 import "../styles/globals.css";
+import "../styles/animations.css";
 
 // Component Imports
 import Footer from "../components/Footer";
