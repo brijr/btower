@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Intro />
       <About />
-      <div className="hidden lg:block h-px dark:bg-white w-1/2 my-12 bg-slate-800"></div>
+      <div className="hidden lg:block h-px dark:bg-slate-900 w-1/2 my-12 bg-slate-800"></div>
       <div className="hidden gap-2 lg:flex text-sm mb-12">
         <svg
           xmlns="http://www.w3.org/2000/svg"

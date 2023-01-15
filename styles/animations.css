@@ -155,3 +155,15 @@
     opacity: 1;
   }
 }
+
+/* Disable animations on mobile */
+
+@media screen and (max-width: 1200px) {
+  .pulsate-bck,
+  .slide-in-right,
+  .text-focus-in,
+  .slide-in-bottom {
+    -webkit-animation: none;
+    animation: none;
+  }
+}
