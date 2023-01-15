@@ -22,6 +22,8 @@ export default function Head() {
         }}
       />
       <title>Bridger Tower / Designer and Developer</title>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta
         name="description"
         content="Bridger Tower is a designer and developer living in Salt Lake City, Utah. He Specializes in front-end web development, software & app design, and product marketing & branding."
