@@ -121,3 +121,7 @@ li {
     background-color: #fefefe;
   }
 }
+
+body>div.p-6.md\:px-24.selection\:bg-blue-700.selection\:text-white.dark\:selection\:text-black.dark\:selection\:bg-\[orange\]>div>div.slide-in-bottom>div.my-12.invert.lg\:w-3\/4>img {
+  filter: invert(1);
+}

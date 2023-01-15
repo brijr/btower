@@ -1,6 +1,7 @@
 // CSS and Animation imports
 import "../styles/globals.css";
 import "../styles/animations.css";
+import "../styles/darkmode.css"
 
 // Component Imports
 import Footer from "../components/Footer";
