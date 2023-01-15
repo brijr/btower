@@ -8,7 +8,7 @@ export default function Home() {
       <Intro />
       <About />
       <div className="hidden invisible lg:block h-px dark:bg-slate-900 lg:w-1/2 my-12 bg-slate-800"></div>
-      <div className="hidden invisible gap-2 lg:flex text-sm mb-12">
+      <div className="gap-2 lg:flex text-sm mb-12">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
