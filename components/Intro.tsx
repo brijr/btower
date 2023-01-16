@@ -48,6 +48,16 @@ export default function Intro() {
         </h2>
 
         <div className="flex flex-wrap gap-4">
+          <a
+            className="flex my-2 p-0 items-center"
+            href="https://read.cv/btower"
+          >
+            <p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">Resume</p>
+            <div className="w-4 h-4">
+              <ArrowUpRightIcon />
+            </div>
+          </a>
+
           <Link className="flex my-2 p-0 items-center" href="/work">
             <p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">Work</p>
             <div className="w-4 h-4">
