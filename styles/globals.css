@@ -53,6 +53,7 @@ p {
   font-size: 1rem;
   line-height: 1.2;
   font-family: 'Inter', sans-serif;
+  margin: 0 0 1rem 0;
 }
 
 h1,
@@ -68,6 +69,21 @@ h5 {
 h1 {
   font-size: 2rem;
   font-weight: 300;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 
 small {
@@ -108,7 +124,52 @@ li {
 
 .bold {
   font-weight: 400;
+}
 
+/* Styles for Medium Posts */
+
+.medium p {
+  margin: 1rem 0;
+  line-height: 1.4;
+  font-size: 1.1rem;
+}
+
+.medium img {
+  padding: 2rem 0;
+}
+
+.medium a {
+  border-bottom: #222 1px solid;
+  transition: all 0.2s ease-in-out;
+}
+
+.medium a:hover {
+  padding-bottom: 1px;
+}
+
+.medium figcaption {
+  font-size: 0.8rem;
+  color: #555;
+  margin: 0;
+  padding: 0;
+}
+
+.medium h4 {
+  margin: 1rem 0;
+}
+
+.medium blockquote {
+  border-left: 3px solid #ccc;
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+
+.medium li {
+  margin: .5rem 2rem;
+}
+
+.medium ul {
+  background-color: transparent;
 }
 
 /* For large screens */

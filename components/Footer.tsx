@@ -24,15 +24,15 @@ export default function Footer() {
         </Link>
 
         {/* writings */}
-        <a
+        <Link
           className="flex my-2 p-0 items-center"
-          href="https://brijr.medium.com/"
+          href="/writings"
         >
           <p className="m-0 p-0 pr-1 hover:pr-2 transition-[400ms]">Writings</p>
           <div className="w-4 h-4">
             <ArrowUpRightIcon />
           </div>
-        </a>
+        </Link>
 
         {/* LinkedIn */}
         <Link
