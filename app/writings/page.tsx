@@ -37,7 +37,7 @@ export default async function Page() {
         {data.map((item: any) => (
           <div key={item.title}>
             <h2 className="mb-8 mt-64 first:mt-12 text-3xl">{item.title}</h2>
-            <p className="my-4">{item.pubDate}</p>
+            {/* <p className="my-4">{item.pubDate}</p> */}
             <div className="medium" dangerouslySetInnerHTML={{ __html: item.description }}></div>
           </div>
         ))}
